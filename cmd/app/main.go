@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	if err := godotenv.Load(); err != nil {
+	if err := godotenv.Load("C:/Users/Usuario/Documents/testes/CardSecure/.env"); err != nil {
 		log.Fatal("Error on loading .env file")
 	}
 
